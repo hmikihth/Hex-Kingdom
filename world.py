@@ -31,31 +31,31 @@ class Building():
     def __repr__(self):
         return 'Building(%s)' % self.image[0]
 
-GRASS = Tile('images/grass_19.png', 'grass')
-FOREST = Tile('images/grass_13.png', 'woods')
-STONE = Tile('images/stone_02.png', 'stone')
+GRASS = Tile('grass_19.png', 'grass')
+FOREST = Tile('grass_13.png', 'woods')
+STONE = Tile('stone_02.png', 'stone')
 
-SHOP = Building(['images/medieval_blacksmith.png', 'images/western_general.png', 'images/modern_shop.png'], \
+SHOP = Building(['medieval_blacksmith.png', 'western_general.png', 'modern_shop.png'], \
 {'gold':1, 'wood':1}, \
 {'gold':1}, \
 terrain=ANY, delay=4)
 
-LUMBER = Building(['images/medieval_lumber.png', 'images/modern_trailerpark.png', 'images/stone_18.png'], \
+LUMBER = Building(['medieval_lumber.png', 'modern_trailerpark.png', 'stone_18.png'], \
 {'gold':2, 'wood':2}, \
 {'wood':1}, \
 terrain=FOREST, delay=6)
 
-MINE = Building(['images/medieval_mine.png'], \
+MINE = Building(['medieval_mine.png'], \
 {'gold':2, 'wood':2, 'stone':2}, \
 {'stone':1, 'gold':1}, \
 terrain=STONE, delay=7)
 
-WATERTOWER = Building(['images/western_watertower.png'], \
+WATERTOWER = Building(['western_watertower.png'], \
 {'gold':1, 'wood':2},
 {'water':1},
 terrain=ANY, delay=2)
 
-FARM = Building(['images/medieval_farm.png', 'images/medieval_windmill.png', 'iamges/modern_campsite.png'], \
+FARM = Building(['medieval_farm.png', 'medieval_windmill.png', 'modern_campsite.png'], \
 {'water':1, 'gold':1},
 {'food':1},
 terrain=GRASS, delay=10)

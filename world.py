@@ -58,7 +58,7 @@ terrain=ANY, delay=2)
 FARM = Building(['medieval_farm.png', 'medieval_windmill.png', 'modern_campsite.png'], \
 {'water':1, 'gold':1},
 {'food':1},
-terrain=GRASS, delay=10)
+terrain=ANY, delay=10)
 
 MONOLITH = Building(['images/stone_16.png'], \
 {'stone':50, 'wood':50, 'gold':50, 'food':50},

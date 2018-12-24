@@ -7,4 +7,4 @@ At the title screen, press space to play. You will be presented with a map. To b
 4: Watertower<br/>
 5: Shop<br/>
 9: Monolith<br/>
-All these buildings cost a certain amount and output a certain amount every few seconds. To upgrade a building, build s vopy of it on top of itself. Build the monolith to win.
+All these buildings cost a certain amount and output a certain amount every few seconds. To upgrade a building, build a copy of it on top of itself. Build the monolith to win.
